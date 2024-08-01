@@ -1,0 +1,30 @@
+.input {
+    flex-direction: row;
+    width: 248px;
+    min-width: 160px;
+    min-height: 44px;
+    padding: var(--size-2) var(--dimension-spacing-3);
+    align-items: center;
+    gap: var(--dimension-spacing-3);
+    border-radius: var(--input-radius);
+    border: var(--dimension-stroke) solid var(--component-input-stroke-default);
+    background-color: var(--component-input-bgrd-colour-default);
+  }
+  
+  .input--error {
+    border-color: var(--component-input-stroke-error);
+  }
+  
+  .input--disabled {
+    border-color: var(--component-input-stroke-disabled);
+    background-color: var(--component-input-bgrd-colour-disable);
+  }
+  
+  .input--success {
+    border-color: var(--component-input-stroke-success);
+  }
+  
+  .input--focus {
+    border-width: var(--dimension-stroke-focus);
+    border-color: var(--component-input-stroke-focus);
+  }
